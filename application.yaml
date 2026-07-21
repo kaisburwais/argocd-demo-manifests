@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/kaisburwais/argocd-demo-manifests
+    repoURL: https://github.com/kaisburwais/argocd-demo-manifests.git
     targetRevision: HEAD
     path: .
 
