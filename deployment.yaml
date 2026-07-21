@@ -12,6 +12,8 @@ spec:
       labels:
         app: argocd-demo-app
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret
       containers:
         - name: argocd-demo-app
           image: ghcr.io/kaisburwais/argocd-demo-app:latest
