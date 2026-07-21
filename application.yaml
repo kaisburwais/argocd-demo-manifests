@@ -6,11 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/kaisburwais/argocd-demo-app
+    repoURL: https://github.com/kaisburwais/argocd-demo-manifests
     targetRevision: HEAD
     path: .
-    default:
-      include: '*.yaml'
 
   destination:
     server: https://kubernetes.default.svc
