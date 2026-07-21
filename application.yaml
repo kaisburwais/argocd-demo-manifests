@@ -8,7 +8,10 @@ spec:
   source:
     repoURL: https://github.com/kaisburwais/argocd-demo-app
     targetRevision: HEAD
-    path: argocd-demo-manifests
+    path: .
+    default:
+      include: '*.yaml'
+
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
