@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: argocd-demo-app
-          image: ghcr.io/kaisburwais/argocd-demo-app:82664aa5f8e0c191b8dcd40841dc6999ba5dc18b
+          image: ghcr.io/kaisburwais/argocd-demo-app:7477039da4a86e662eea2f6568c65a044be566ca
           ports:
             - containerPort: 3000
